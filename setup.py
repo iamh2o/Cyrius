@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 if __name__ == "__main__":
     setuptools.setup(
         name="Cyrius",
-        version="0.0.0.1",
+        version="0.0.0.5",
         author="ILMN",
         author_email="na@na.gov",
         description="Just making this installable via conda",
@@ -17,7 +17,7 @@ if __name__ == "__main__":
         project_urls={
             "Bug Tracker": "https://github.com/iamh2o/Cyrius",
         },
-        packages=['Cyrius', 'Cyrius.caller'],
+        packages=['Cyrius', 'Cyrius.caller', 'Cyrius.depth_caller'],
         package_data={'Cyrius': ['Cyrius/data/*']},
         classifiers=[
             "Programming Language :: Python :: 3",
