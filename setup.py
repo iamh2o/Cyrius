@@ -17,7 +17,7 @@ if __name__ == "__main__":
         project_urls={
             "Bug Tracker": "https://github.com/iamh2o/Cyrius",
         },
-        packages=['Cyrius', 'Cyrius.caller', 'Cyrius.depth_caller'],
+        packages=['Cyrius', 'Cyrius.caller', 'Cyrius.depth_calling'],
         package_data={'Cyrius': ['Cyrius/data/*']},
         classifiers=[
             "Programming Language :: Python :: 3",
